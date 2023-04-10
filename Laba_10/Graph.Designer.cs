@@ -34,9 +34,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(984, 961);
+            this.ClientSize = new System.Drawing.Size(984, 749);
             this.Name = "Graph";
             this.Text = "Graph";
+            this.Load += new System.EventHandler(this.Graph_Load);
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.Graph_Paint);
             this.ResumeLayout(false);
 

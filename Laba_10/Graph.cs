@@ -33,7 +33,7 @@ namespace Laba_10
             Pen pen = new Pen(Color.Blue, 2f);
 
             List<PointF> points = new List<PointF>();
-
+            Console.WriteLine("111");
             for (int i = -xc; i < xc; i+=20)
             {
                 g.DrawLine(pen2, i , -4, i, 4);
@@ -58,6 +58,11 @@ namespace Laba_10
                 
                 k++;
             }
+        }
+
+        private void Graph_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
